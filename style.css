@@ -1,0 +1,86 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("https://images.unsplash.com/photo-1613376023733-0a73315d9b06?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80");
+    background-size: cover;
+    background-position:center;
+}
+
+.divput {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    max-width: 400px;
+    margin: 400px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.divput h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Goblin One', cursive;
+    background: -webkit-linear-gradient(rgb(251,255,22), rgb(230,0,38));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    -webkit-text-stroke: 1.6px rgba(0, 0, 0, 0.849);
+}
+
+input {
+    height: 70%;
+    width: 90%;
+    background-color: rgba(207, 111, 111, 0.568);
+    font-family: 'Pattaya', sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(33, 24, 73, 0.918);
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: auto;
+}
+
+.ganarate {
+    margin-top: 10px;
+    align-items: center;
+    font-family: 'Goblin One', cursive;
+    background-color: teal;
+    color: tomato;
+    border: 5px solid rgba(33, 8, 175, 0.541);
+    border-radius: 4px;
+    font-size: 20px;
+    letter-spacing: 15px;
+    width: 90%;
+    padding: auto;
+    transition: 1s;
+}
+
+.animeArea {
+    margin-top: 20px;
+    margin: 400px auto;
+    background-color: rgba(255, 192, 203, 0.548);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1025px) {
+    .divput {
+        margin: 100px auto;
+    }
+    .animeArea {
+        margin-top: 5px;
+    }
+
+
+}
+
+@media only screen and (max-width: 281px) {
+    .ganarate {
+        letter-spacing: 6px;
+    }
+
+}
